@@ -6,17 +6,18 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { ReviewmainComponent } from './reviewmain/reviewmain.component';
-import { BlocksComponent } from './reviewmain/blocks/blocks.component';
-import { StarsComponent } from './reviewmain/blocks/stars/stars.component';
+import { StatusComponent } from './reviewmain/status/status.component';
+import { SidebaralternateComponent } from './sidebaralternate/sidebaralternate.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     SidenavComponent,
     ReviewmainComponent,
-    BlocksComponent,
-    StarsComponent
-  ],
+    StatusComponent,
+    SidebaralternateComponent,
+    ],
   imports: [
     BrowserModule,
     FormsModule,
