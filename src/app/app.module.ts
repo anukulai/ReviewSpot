@@ -7,7 +7,8 @@ import { AppComponent } from './app.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { ReviewmainComponent } from './reviewmain/reviewmain.component';
 import { BlocksComponent } from './reviewmain/blocks/blocks.component';
-import { StarsComponent } from './reviewmain/blocks/stars/stars.component';
+import { StatusbarComponent } from './reviewmain/statusbar/statusbar.component';
+
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { StarsComponent } from './reviewmain/blocks/stars/stars.component';
     SidenavComponent,
     ReviewmainComponent,
     BlocksComponent,
-    StarsComponent
+    StatusbarComponent,
+    
   ],
   imports: [
     BrowserModule,
