@@ -6,8 +6,11 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { ReviewmainComponent } from './reviewmain/reviewmain.component';
-import { BlocksComponent } from './reviewmain/blocks/blocks.component';
+
 import { StatusbarComponent } from './reviewmain/statusbar/statusbar.component';
+
+import { StatusComponent } from './reviewmain/status/status.component';
+import { SidebaralternateComponent } from './sidebaralternate/sidebaralternate.component';
 
 
 @NgModule({
@@ -15,10 +18,11 @@ import { StatusbarComponent } from './reviewmain/statusbar/statusbar.component';
     AppComponent,
     SidenavComponent,
     ReviewmainComponent,
-    BlocksComponent,
     StatusbarComponent,
-    
-  ],
+    StatusComponent,
+    SidebaralternateComponent,
+    ],
+
   imports: [
     BrowserModule,
     FormsModule,
